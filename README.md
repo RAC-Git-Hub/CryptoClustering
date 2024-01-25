@@ -10,8 +10,8 @@
 ## Getting Started
 Before starting this assignment, make sure the user has a GitHub account. Then
 take the following steps:
->   1. Create a new repository for this project called CryptoClustering . Do not
->   add this homework to an existing repository.
+>   1. Create a new repository for this project called CryptoClustering .
+>   **Do not add this homework assignment to an existing repository.**
 >   2. Clone the new repository to your computer.
 >   3. Push your changes to GitHub.
 
