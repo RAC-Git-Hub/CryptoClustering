@@ -23,23 +23,9 @@ take the following steps:
 >original DataFrame as the index for the new DataFrame.
 >-  The first five rows of the scaled DataFrame should appear as follows:
 >
->![8-1_output](https://github.com/RAC-Git-Hub/prophet-challenge/blob/main/8-1_output.png?raw=true)
+>![11-1_output](https://https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/11-1_output.png)
 
 
-
-
-The data science manager asks if the Google search traffic for the company
->links to any financial events at the company. Or, does the search traffic
->data just present random noise? To answer this question, pick out any
->unusual patterns in the Google search data for the company, and connect them
->to the corporate financial events.
->
->   To do so, complete the following steps:
->   1. Read the search data into a DataFrame, and then slice the data to just
->   the month of May 2020. (During this month, MercadoLibre released its
->   quarterly financial results.) Visualize the results.
-> 
->![11-1_output](https://github.com/RAC-Git-Hub/CryptoClustering/main/11-1_output.png?raw=true)
 
 >
 >Do any unusual patterns exist?
