@@ -14,22 +14,21 @@ take the following steps:
 >   **Do not add this homework assignment to an existing repository.**
 >   2. Clone the new repository to your computer.
 >   3. Push your changes to GitHub.
-
-
-Create a new repository for this project called prophet-challenge. 
->   **Do not add this homework assignment to an existing repository.**
->-  Clone the new repository to your computer.
->-  Inside your local Git repository, add the starter files from your file 
->   downloads.
->-  Push these changes to GitHub or GitLab.
->
->You will use Google Colab to complete this challenge; make sure to download
->your notebook file and place it in your repository again after completing the
->challenge.
 >
 >### Instructions
->#### Step 1: Find Unusual Patterns in Hourly Google Search Traffic
->The data science manager asks if the Google search traffic for the company
+>#### Prepare the Data
+>1. Use the StandardScaler() module from scikit-learn to normalize the data from
+>the CSV file.
+>2. Create a DataFrame with the scaled data and set the "coin_id" index from the
+>original DataFrame as the index for the new DataFrame.
+>-  The first five rows of the scaled DataFrame should appear as follows:
+>
+>![8-1_output](https://github.com/RAC-Git-Hub/prophet-challenge/blob/main/8-1_output.png?raw=true)
+
+
+
+
+The data science manager asks if the Google search traffic for the company
 >links to any financial events at the company. Or, does the search traffic
 >data just present random noise? To answer this question, pick out any
 >unusual patterns in the Google search data for the company, and connect them
@@ -40,7 +39,8 @@ Create a new repository for this project called prophet-challenge.
 >   the month of May 2020. (During this month, MercadoLibre released its
 >   quarterly financial results.) Visualize the results.
 > 
->![8-1_output](https://github.com/RAC-Git-Hub/prophet-challenge/blob/main/8-1_output.png?raw=true)
+>![11-1_output](https://github.com/RAC-Git-Hub/CryptoClustering/main/11-1_output.png?raw=true)
+
 >
 >Do any unusual patterns exist?
 >
