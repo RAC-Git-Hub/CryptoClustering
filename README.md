@@ -50,27 +50,25 @@ take the following steps:
 >   4. Create a copy of the original data and add a new column with the
 >   predicted clusters.
 >   5. Create a scatterplot using pandas’ plot as follows:
->-- Set the x-axis as "price_change_percentage_24h" and the y-axis as
+>-  Set the x-axis as "price_change_percentage_24h" and the y-axis as
 >   "price_change_percentage_7d".
 >
->#### Step 4: Create a Time Series Model with Prophet
->Now, you need to produce a time series model that analyzes and forecasts
->patterns in the hourly search data. To do so, complete the following steps:
->   1. Set up the Google search data for a Prophet forecasting model.
->   2. After estimating the model, plot the forecast. 
->
->![8-6_output](https://github.com/RAC-Git-Hub/prophet-challenge/blob/main/8-6_output.png?raw=true)
->
->   How's the near-term forecast for the popularity of MercadoLibre?
->
->   3. Plot the individual time series components of the model to answer the
->   following questions in the space provided in the starter file:
->
->![8-7_output](https://github.com/RAC-Git-Hub/prophet-challenge/blob/main/8-7_output.png?raw=true)
->
->-  What time of day exhibits the greatest popularity?
->-  Which day of the week gets the most search traffic?
->-  What's the lowest point for search traffic in the calendar year?
+>#### Optimize Clusters with Principal Component Analysis
+>   1. Using the original scaled DataFrame, perform a PCA and reduce the
+>   features to three principal components.
+>   2. Retrieve the explained variance to determine how much information can be
+>   attributed to each principal component and then answer the following
+>   question in your notebook:
+>-  What is the total explained variance of the three principal components?
+>   3. Create a new DataFrame with the PCA data and set the "coin_id" index from
+>   the original DataFrame as the index for the new DataFrame.
+>-  The first five rows of the PCA DataFrame should appear as follows:
+>![11-1_output](https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/11-1_output.png?raw=true)
+
+
+
+
+
 >
 ## Sources
 The starter codes were obtained in December 2023 from the instructional staff of
