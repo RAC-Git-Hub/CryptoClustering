@@ -35,6 +35,10 @@ take the following steps:
 >   4. Create a dictionary with the data to plot the elbow curve.
 >   5. Plot a line chart with all the inertia values computed with the different
 >   values of k to visually identify the optimal value for k .
+>
+![plot_1](https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/plot_1.png?raw=true)
+>
+>
 >   6. Answer the following question in your notebook: What is the best value
 >   for k ?
 >
@@ -52,6 +56,9 @@ take the following steps:
 >   5. Create a scatterplot using pandas’ plot as follows:
 >-  Set the x-axis as "price_change_percentage_24h" and the y-axis as
 >   "price_change_percentage_7d".
+>
+![plot_2](https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/plot_2.png?raw=true)
+>
 >
 >#### Optimize Clusters with Principal Component Analysis
 >   1. Using the original scaled DataFrame, perform a PCA and reduce the
