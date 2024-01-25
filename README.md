@@ -92,7 +92,7 @@ take the following steps:
 >   5. Create a scatte rplot using pandas’ plot as follows:
 >-  Set the x-axis as "PC1" and the y-axis as "PC2".
 >   6. Answer the following question:
->   What is the impact of using fewer features to cluster the data using
+>-  What is the impact of using fewer features to cluster the data using
 >   K-Means?
 >
 >#### Determine the Weights of Each Feature on Each Principal Component
