@@ -50,7 +50,7 @@ take the following steps:
 >   4. Create a copy of the original data and add a new column with the
 >   predicted clusters.
 >   5. Create a scatterplot using pandas’ plot as follows:
->-  Set the x-axis as "price_change_percentage_24h" and the y-axis as
+>-- Set the x-axis as "price_change_percentage_24h" and the y-axis as
 >   "price_change_percentage_7d".
 >
 >#### Step 4: Create a Time Series Model with Prophet
