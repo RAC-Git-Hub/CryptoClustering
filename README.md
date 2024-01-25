@@ -63,7 +63,7 @@ take the following steps:
 >   3. Create a new DataFrame with the PCA data and set the "coin_id" index from
 >   the original DataFrame as the index for the new DataFrame.
 >-  The first five rows of the PCA DataFrame should appear as follows:
->![11-1_output](https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/11-1_output.png?raw=true)
+>![11-2_output](https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/11-2_output.png?raw=true)
 
 
 
