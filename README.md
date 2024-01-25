@@ -23,7 +23,7 @@ take the following steps:
 >original DataFrame as the index for the new DataFrame.
 >-  The first five rows of the scaled DataFrame should appear as follows:
 >
->![11-1_output](https://https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/11-1_output.png)
+>![11-1_output](https://https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/11-1_output.png?raw=true)
 
 
 
