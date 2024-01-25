@@ -24,24 +24,24 @@ take the following steps:
 >-  The first five rows of the scaled DataFrame should appear as follows:
 >
 >![11-1_output](https://github.com/RAC-Git-Hub/CryptoClustering/blob/main/Resources/11-1_output.png?raw=true)
+>
+>
+>#### Find the Best Value for k Using the Original Scaled DataFrame
+>Use the elbow method to find the best value for k by completing the following
+>steps:
+>   1. Create a list with the number of k values from 1 to 11.
+>   2. Create an empty list to store the inertia values.
+>   3. Create a for loop to compute the inertia with each possible value of k .
+>   4. Create a dictionary with the data to plot the elbow curve.
+>   5. Plot a line chart with all the inertia values computed with the different
+>   values of k to visually identify the optimal value for k .
+>   6. Answer the following question in your notebook: What is the best value
+>   for k ?
 
 
 
->
->Do any unusual patterns exist?
->
->   2. Calculate the total search traffic for the month, and then compare the
->   value to the monthly median across all months.
->   3. Did the Google search traffic increase during the month that MercadoLibre
->   released its financial results? Write your answer in the space provided in
->   the starter file.
->
->#### Step 2: Mine the Search Traffic Data for Seasonality
->Marketing realizes that they can use the hourly search data, too. If they
->can track and predict interest in the company and its platform for any time
->of day, they can focus their marketing efforts around the times that have
->the most traffic. This will get a greater return on investment (ROI) from
->their marketing budget.
+
+
 >
 >To that end, you want to mine the search traffic data for predictable seasonal
 >patterns of interest in the company. To do so, complete the following steps:
