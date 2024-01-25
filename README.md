@@ -10,7 +10,13 @@
 ## Getting Started
 Before starting this assignment, make sure the user has a GitHub and a Google
 account. Then take the following steps:
->-  Create a new repository for this project called prophet-challenge. 
+>-  1. Create a new repository for this project called CryptoClustering . Do not
+>-  add this homework to an existing repository.
+>-  2. Clone the new repository to your computer.
+>-  3. Push your changes to GitHub.
+
+
+Create a new repository for this project called prophet-challenge. 
 >   **Do not add this homework assignment to an existing repository.**
 >-  Clone the new repository to your computer.
 >-  Inside your local Git repository, add the starter files from your file 
